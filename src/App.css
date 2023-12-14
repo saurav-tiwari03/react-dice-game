@@ -47,9 +47,23 @@ body{
   border-radius: 69px;
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
   box-shadow:  27px 27px 41px #5c5c5c,
-               -27px -27px 41px #ffffff;
+              -27px -27px 41px #ffffff;
 }
 
 footer {
   margin-top: auto;
+}
+
+#dice-bg {
+  border-radius: 5px;
+  background: linear-gradient(225deg, #c5c5c5, #eaeaea);
+  box-shadow:  -35px 35px 70px #6e6e6e,
+              35px -35px 70px #ffffff;
+}
+.selected {
+  background-color: black;
+  color: white;
+}
+.selected:hover {
+  background-color: black;
 }
